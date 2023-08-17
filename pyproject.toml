@@ -1,0 +1,29 @@
+[project]
+name = "rs-result"
+version = "0.0.1"
+authors = [
+  { name="Nicholas Obert", email="nchlsuba@gmail.com" },
+]
+description = "A simple Python library that implements Rust-like `Result` and `Option` types."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nic-obert/py-result"
+"Bug Tracker" = "https://github.com/nic-obert/py-result/issues"
+"Documentation" = "https://nic-obert.github.io/py-result/"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
