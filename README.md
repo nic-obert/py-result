@@ -5,7 +5,7 @@ A simple Python library that implements Rust-like `Result` and `Option` types.
 ## Installation
 
 ```bash
-pip install pyresult
+pip install rs-result
 ```
 
 ## Usage
