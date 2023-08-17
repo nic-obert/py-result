@@ -8,9 +8,9 @@ A simple Python library that implements Rust-like `Result` and `Option` types.
 pip install rs-result
 ```
 
-## Usage
-
 ## Documentation
+
+Documentation can be found [here](https://nic-obert.github.io/py-result).
 
 ## License
 
