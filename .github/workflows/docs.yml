@@ -1,10 +1,10 @@
 name: website
 
-# build the documentation whenever there are new commits on main
+# build the documentation whenever there are new commits on master
 on:
   push:
     branches:
-      - main
+      - master
     # Alternative: only build for tags.
     # tags:
     #   - '*'
@@ -27,7 +27,7 @@ jobs:
       - run: pip install -e .
       # ADJUST THIS: build your documentation into docs/.
       # We use a custom build script for pdoc itself, ideally you just run `pdoc -o docs/ ...` here.
-      - run: pdoc rs-result --no-include-undocumented --no-show-source -o docs/
+      - run: pdoc src/rs-result --no-include-undocumented --no-show-source -o docs/
 
       - uses: actions/upload-pages-artifact@v2
         with:
